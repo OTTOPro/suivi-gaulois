@@ -28,7 +28,7 @@ Every action is written on the phone first, then sent. Events sync after each ac
 - A player page with season averages and the match by match log.
 - A one page PDF per player, generated in the browser, nine matches at most.
 - A dashboard with the next match, four team indicators and the four best ratings.
-- "Copy analysis": a text with the player's numbers and the coach's comments, identified by jersey number, to paste into whatever assistant you use. The app itself calls no model.
+- A read-only MCP server, in its own repository, that lets an assistant read the season's statistics and answer questions about them: [suivi-gaulois-mcp](https://github.com/OTTOPro/suivi-gaulois-mcp).
 
 Computed on the device, from the counters: reception average, attack efficiency (kills minus errors over attempts), serve efficiency (aces minus errors over attempts), ball tracking average. Nothing is computed on the server.
 
